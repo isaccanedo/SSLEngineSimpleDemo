@@ -10,7 +10,7 @@ A demonstração cria dois SSLEngines, simulando um cliente e um servidor. A cam
 
 Observe, este é um exemplo * muito * simples: o código real estará muito mais envolvido. Por exemplo, diferentes modelos de threading e I / O podem ser usados, os mecanismos de transporte podem fechar inesperadamente e assim por diante.
 
-  * Quando este aplicativo é executado, observe que várias mensagens * (quebra / desempacotamento) passam antes que qualquer dado do aplicativo seja consumido ou * produzido. (Para obter mais informações, consulte as especificações SSL / TLS *.) Pode haver várias etapas para um handshake bem-sucedido *, portanto, é comum ver a seguinte série de operações:
+Quando este aplicativo é executado, observe que várias mensagens * (quebra / desempacotamento) passam antes que qualquer dado do aplicativo seja consumido ou * produzido. (Para obter mais informações, consulte as especificações SSL / TLS *.) Pode haver várias etapas para um handshake bem-sucedido *, portanto, é comum ver a seguinte série de operações:
 
 ### Uso
 
